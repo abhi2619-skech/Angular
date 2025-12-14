@@ -1,0 +1,41 @@
+body {
+  padding-top: 90px;
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  background-image: url('https://images.unsplash.com/photo-1489515217757-5fd1be406fef');
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 25px rgba(0,0,0,0.7);
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.line {
+  width: 80px;
+  height: 4px;
+  background-color: #00aaff;
+  margin: 10px auto 40px auto;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  transition: 0.3s ease-in-out;
+}
+
+.feature-card {
+  transition: 0.3s ease-in-out;
+}
